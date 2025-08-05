@@ -1,6 +1,6 @@
 [
     {
-        "id": "367c0125f933bfb7",
+        "id": "157c96309b27bb6f",
         "type": "tab",
         "label": "Save/Download CSV",
         "disabled": false,
@@ -8,9 +8,9 @@
         "env": []
     },
     {
-        "id": "612ef728a32f9e5e",
+        "id": "cb64fefaeaf4fccf",
         "type": "group",
-        "z": "367c0125f933bfb7",
+        "z": "157c96309b27bb6f",
         "name": "Flow to add mac address to dropdown dashboard",
         "style": {
             "stroke": "none",
@@ -19,10 +19,10 @@
             "fill-opacity": "0.54"
         },
         "nodes": [
-            "f8772a73c94b8c46",
-            "f55aa002438094ac",
-            "53b4fe5732ba269e",
-            "67a28d025ff38caf"
+            "31cfad17d7507b14",
+            "34ef0528845d9ed3",
+            "3a48530686a016bc",
+            "6f635196e3c2c74e"
         ],
         "x": 674,
         "y": 519,
@@ -30,9 +30,9 @@
         "h": 82
     },
     {
-        "id": "77a18e0520aad55c",
+        "id": "a95ce519fec67eef",
         "type": "group",
-        "z": "367c0125f933bfb7",
+        "z": "157c96309b27bb6f",
         "name": "Flow to download CSV file from dashboard",
         "style": {
             "stroke": "none",
@@ -41,45 +41,40 @@
             "label": true
         },
         "nodes": [
-            "afff5407a4c02b5c",
-            "ae71c3f584d4af92",
-            "7ca014cf5c2c22a1",
-            "5a49bc11c69f32f9",
-            "b015300ae5e56747",
-            "a4bade70426d3646",
-            "ff09bfb97c5f7a34",
-            "3aa1ed372bd363ca",
-            "8b9170e2771f4b40",
-            "373c0bfed63f5c82",
-            "5c1ffe5a9a96e09d",
-            "54b1afc2cc6fa040",
-            "916fdfee0dacbb72",
-            "920dd385513c57fe",
-            "50e630bb191e3cbe",
-            "dff91035a57735ab",
-            "719f3663bdb487dc",
-            "ee1fc8c0baed35d2",
-            "c52c58538a600a0f",
-            "dc27068110a06ab6",
-            "bdc4cf42432570d8",
-            "1df3409f07086094",
-            "782a349dfeef3656",
-            "73d57daa16667e08",
-            "b95a29cc092f43a7",
-            "12591705d9a7449d",
-            "955cc824bd59dc07",
-            "378fdc01118aa93e",
-            "7c18c3c1e4960274"
+            "4f688d06315c27a1",
+            "e9642a6288459352",
+            "a53125d063cddea5",
+            "1be999659aca3267",
+            "d2d6299e6f6f12a5",
+            "53619bd02f214a0b",
+            "cc2f84d16ffb6345",
+            "39ec28475d6ad592",
+            "75f0c58fe39c2518",
+            "dd0e9b274b3597a6",
+            "e4f2eb0c2e88e64b",
+            "965a64939e1c16cf",
+            "19407720176e9479",
+            "db53bf0f501f6c41",
+            "2b9e1727e1e499e6",
+            "73db835a58f26391",
+            "ff2627ecc904e08d",
+            "93344b6c08db0b58",
+            "2399210f910b0828",
+            "a099da0aa41a351c",
+            "f8ce2aaf74beccd5",
+            "be9586c054ed763b",
+            "cd18e0aa72dc9fa3",
+            "e227e02076042db5"
         ],
         "x": 674,
         "y": 679,
-        "w": 1192,
+        "w": 932,
         "h": 382
     },
     {
-        "id": "6ce5d36c05508085",
+        "id": "ceb2b9c3d8cb8277",
         "type": "group",
-        "z": "367c0125f933bfb7",
+        "z": "157c96309b27bb6f",
         "name": "This flow saves CSV files.",
         "style": {
             "stroke": "none",
@@ -88,11 +83,11 @@
             "label": true
         },
         "nodes": [
-            "e05e24198e4874c7",
-            "c31c9e9587ef8df8",
-            "71021df82448d14a",
-            "70250f3f222e5273",
-            "6cecc2ea0bb96daa"
+            "2006100fb098e59f",
+            "826dbdfed4e6dd30",
+            "dcdb633910b4489d",
+            "f15036bc00ac9afc",
+            "ee9788a4596e1a82"
         ],
         "x": 674,
         "y": 359,
@@ -100,10 +95,47 @@
         "h": 82
     },
     {
-        "id": "e05e24198e4874c7",
+        "id": "dd5a7366edd7124a",
+        "type": "group",
+        "z": "157c96309b27bb6f",
+        "name": "Flow to delete local file after download",
+        "style": {
+            "stroke": "none",
+            "fill": "#bfdbef",
+            "fill-opacity": "0.52",
+            "label": true
+        },
+        "nodes": [
+            "7ea1c4f13a1d8b7f",
+            "5c071e7f8c658924",
+            "a4f3373081b9e7e6",
+            "5ca04232369bb2b3",
+            "701ad51a75fd5047",
+            "f355936bd828aaee"
+        ],
+        "x": 1654,
+        "y": 719,
+        "w": 672,
+        "h": 122
+    },
+    {
+        "id": "e227e02076042db5",
+        "type": "junction",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
+        "x": 1260,
+        "y": 780,
+        "wires": [
+            [
+                "7ea1c4f13a1d8b7f"
+            ]
+        ]
+    },
+    {
+        "id": "2006100fb098e59f",
         "type": "file",
-        "z": "367c0125f933bfb7",
-        "g": "6ce5d36c05508085",
+        "z": "157c96309b27bb6f",
+        "g": "ceb2b9c3d8cb8277",
         "name": "write-file-locally",
         "filename": "path",
         "filenameType": "msg",
@@ -115,15 +147,15 @@
         "y": 400,
         "wires": [
             [
-                "c31c9e9587ef8df8"
+                "826dbdfed4e6dd30"
             ]
         ]
     },
     {
-        "id": "c31c9e9587ef8df8",
+        "id": "826dbdfed4e6dd30",
         "type": "debug",
-        "z": "367c0125f933bfb7",
-        "g": "6ce5d36c05508085",
+        "z": "157c96309b27bb6f",
+        "g": "ceb2b9c3d8cb8277",
         "name": "debug 15",
         "active": false,
         "tosidebar": true,
@@ -137,9 +169,9 @@
         "wires": []
     },
     {
-        "id": "777ff228af62e0ad",
+        "id": "f72d3f7317e1878a",
         "type": "debug",
-        "z": "367c0125f933bfb7",
+        "z": "157c96309b27bb6f",
         "name": "All messages",
         "active": true,
         "tosidebar": true,
@@ -154,9 +186,9 @@
         "wires": []
     },
     {
-        "id": "49d804df8777a404",
+        "id": "7f92878466352a2f",
         "type": "switch",
-        "z": "367c0125f933bfb7",
+        "z": "157c96309b27bb6f",
         "name": "filter-by-sensor-data",
         "property": "topic",
         "propertyType": "msg",
@@ -174,18 +206,18 @@
         "y": 400,
         "wires": [
             [
-                "70250f3f222e5273",
-                "53b4fe5732ba269e"
+                "f15036bc00ac9afc",
+                "3a48530686a016bc"
             ]
         ]
     },
     {
-        "id": "71021df82448d14a",
+        "id": "dcdb633910b4489d",
         "type": "function",
-        "z": "367c0125f933bfb7",
-        "g": "6ce5d36c05508085",
+        "z": "157c96309b27bb6f",
+        "g": "ceb2b9c3d8cb8277",
         "name": "format-sensor-data",
-        "func": "// Extract the payload from the incoming message\nconst payload = msg.payload;\n\n// 1. Prepare the data for the CSV row\n// ------------------------------------\n\n// Define the common fields that will be in every CSV file\nconst commonData = {\n    time: msg.time, \n    firmware: payload.firmware,\n    count: payload.counter,\n    battery: payload.battery_percent,\n    rssi: payload.rssi || '-'\n};\n\n// Get the sensor-specific data\nconst sensorData = payload.sensor_data;\nconst sensorType = payload.sensor_type;\n\n// Combine the common data and the sensor-specific data into a single, flat object.\n// The order of columns will be: commonData keys, then sensorData keys.\nconst flatData = { ...commonData, ...sensorData };\n\n\n// 2. Generate the CSV header and data row strings\n// ------------------------------------------------\n\n// The header is the list of keys from our flat data object\nconst headers = Object.keys(flatData);\n// The data row is the list of values.\nconst values = Object.values(flatData);\n\n// Convert arrays into comma-separated strings\nconst headerString = headers.join(',');\nconst rowString = values.join(',');\n\n\n// 3. Handle writing the header only once per file\n// -----------------------------------------------\n// We use flow context to remember if we've already written the header for a specific sensor type.\nconst contextKey = `header_written_${sensorType}`;\nconst headerWritten = flow.get(contextKey) || false;\n\nlet csvPayload = \"\";\n\nif (!headerWritten) {\n    // If the header hasn't been written yet, combine the header and the first row.\n    // The '\\n' creates a new line between the header and the data.\n    csvPayload = headerString + '\\n' + rowString;\n    // Save the state to the flow context so we don't write the header again.\n    flow.set(contextKey, true);\n    \n    //node.log(`Writing new file with header for sensor_type: ${sensorType}`);\n} else {\n    // If the header has already been written, the payload is just the new data row.\n    csvPayload = rowString;\n}\n\n// 4. Prepare the message for the 'file' node\n// --------------------------------------------\n// The 'file' node uses msg.payload as the content\nmsg.payload = csvPayload;\n\n// Pass the message to the next node in the flow (the 'file' node)\nreturn msg;",
+        "func": "// Extract the payload from the incoming message\nconst payload = msg.payload;\n\n// 1. Prepare the data for the CSV row\n// ------------------------------------\n\n// Define the common fields that will be in every CSV file\nconst commonData = {\n    time: msg.time, \n    firmware: payload.firmware,\n    count: payload.counter,\n    battery: payload.battery_percent,\n    rssi: payload.rssi || '-'\n};\n\n// Get the sensor-specific data\nconst sensorData = payload.sensor_data;\nconst device = msg.addr;\n\n// Combine the common data and the sensor-specific data into a single, flat object.\n// The order of columns will be: commonData keys, then sensorData keys.\nconst flatData = { ...commonData, ...sensorData };\n\n\n// 2. Generate the CSV header and data row strings\n// ------------------------------------------------\n\n// The header is the list of keys from our flat data object\nconst headers = Object.keys(flatData);\n// The data row is the list of values.\nconst values = Object.values(flatData);\n\n// Convert arrays into comma-separated strings\nconst headerString = headers.join(',');\nconst rowString = values.join(',');\n\n\n// 3. Handle writing the header only once per file\n// -----------------------------------------------\n// We use flow context to remember if we've already written the header for a specific sensor type.\nconst contextKey = `header_written_${device}`;\nconst headerWritten = flow.get(contextKey) || false;\n\nlet csvPayload = \"\";\n\nif (!headerWritten) {\n    // If the header hasn't been written yet, combine the header and the first row.\n    // The '\\n' creates a new line between the header and the data.\n    csvPayload = headerString + '\\n' + rowString;\n    // Save the state to the flow context so we don't write the header again.\n    flow.set(contextKey, true);\n    \n    //node.log(`Writing new file with header for sensor_type: ${sensorType}`);\n} else {\n    // If the header has already been written, the payload is just the new data row.\n    csvPayload = rowString;\n}\n\n// 4. Prepare the message for the 'file' node\n// --------------------------------------------\n// The 'file' node uses msg.payload as the content\nmsg.payload = csvPayload;\n\n// Pass the message to the next node in the flow (the 'file' node)\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -196,14 +228,14 @@
         "y": 400,
         "wires": [
             [
-                "e05e24198e4874c7"
+                "2006100fb098e59f"
             ]
         ]
     },
     {
-        "id": "6abd7e2e62ed73bc",
+        "id": "36df571e9b3fa8ed",
         "type": "ncd-gateway-node",
-        "z": "367c0125f933bfb7",
+        "z": "157c96309b27bb6f",
         "name": "",
         "connection": "",
         "unknown_devices": 0,
@@ -212,16 +244,16 @@
         "y": 400,
         "wires": [
             [
-                "777ff228af62e0ad",
-                "49d804df8777a404"
+                "f72d3f7317e1878a",
+                "7f92878466352a2f"
             ]
         ]
     },
     {
-        "id": "70250f3f222e5273",
+        "id": "f15036bc00ac9afc",
         "type": "change",
-        "z": "367c0125f933bfb7",
-        "g": "6ce5d36c05508085",
+        "z": "157c96309b27bb6f",
+        "g": "ceb2b9c3d8cb8277",
         "name": "build-payload",
         "rules": [
             {
@@ -267,14 +299,14 @@
         "y": 400,
         "wires": [
             [
-                "6cecc2ea0bb96daa"
+                "ee9788a4596e1a82"
             ]
         ]
     },
     {
-        "id": "9186ce31f69eeadf",
+        "id": "5b4a12ef706f4359",
         "type": "change",
-        "z": "367c0125f933bfb7",
+        "z": "157c96309b27bb6f",
         "name": "",
         "rules": [
             {
@@ -297,10 +329,10 @@
         ]
     },
     {
-        "id": "afff5407a4c02b5c",
+        "id": "4f688d06315c27a1",
         "type": "function",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "build-local-path",
         "func": "var date = flow.get('date') || 0;\nvar basePath = flow.get('userpath');\nvar device = msg.device;\nmsg.filename = basePath + \"/\" + device + \"/\" + date + \"/\" + date + \"_\" + device + \".csv\";\nreturn msg;",
         "outputs": 1,
@@ -313,16 +345,16 @@
         "y": 840,
         "wires": [
             [
-                "7ca014cf5c2c22a1",
-                "916fdfee0dacbb72"
+                "a53125d063cddea5",
+                "e227e02076042db5"
             ]
         ]
     },
     {
-        "id": "ae71c3f584d4af92",
+        "id": "e9642a6288459352",
         "type": "http response",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "",
         "statusCode": "",
         "headers": {},
@@ -331,10 +363,10 @@
         "wires": []
     },
     {
-        "id": "7ca014cf5c2c22a1",
+        "id": "a53125d063cddea5",
         "type": "file in",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "read-file-from-local",
         "filename": "filename",
         "filenameType": "msg",
@@ -347,34 +379,34 @@
         "y": 840,
         "wires": [
             [
-                "ae71c3f584d4af92"
+                "e9642a6288459352"
             ]
         ]
     },
     {
-        "id": "5a49bc11c69f32f9",
+        "id": "1be999659aca3267",
         "type": "catch",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "",
         "scope": [
-            "7ca014cf5c2c22a1"
+            "a53125d063cddea5"
         ],
         "uncaught": false,
         "x": 970,
         "y": 920,
         "wires": [
             [
-                "3aa1ed372bd363ca",
-                "373c0bfed63f5c82"
+                "39ec28475d6ad592",
+                "dd0e9b274b3597a6"
             ]
         ]
     },
     {
-        "id": "b015300ae5e56747",
+        "id": "d2d6299e6f6f12a5",
         "type": "http in",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "",
         "url": "/csv/:fn",
         "method": "get",
@@ -385,15 +417,15 @@
         "y": 840,
         "wires": [
             [
-                "a4bade70426d3646"
+                "53619bd02f214a0b"
             ]
         ]
     },
     {
-        "id": "a4bade70426d3646",
+        "id": "53619bd02f214a0b",
         "type": "change",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "fomat-addr",
         "rules": [
             {
@@ -413,16 +445,16 @@
         "y": 840,
         "wires": [
             [
-                "afff5407a4c02b5c"
+                "4f688d06315c27a1"
             ]
         ]
     },
     {
-        "id": "ff09bfb97c5f7a34",
+        "id": "cc2f84d16ffb6345",
         "type": "ui-notification",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
-        "ui": "ec459411017ddf37",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
+        "ui": "eb4502250af82431",
         "position": "top left",
         "colorDefault": true,
         "color": "#000000",
@@ -441,10 +473,10 @@
         "wires": []
     },
     {
-        "id": "3aa1ed372bd363ca",
+        "id": "39ec28475d6ad592",
         "type": "function",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "error message",
         "func": "var error = \"Error: no such file or directory\";\nmsg = {};\nmsg.payload = error;\nreturn msg;",
         "outputs": 1,
@@ -457,15 +489,15 @@
         "y": 900,
         "wires": [
             [
-                "8b9170e2771f4b40"
+                "75f0c58fe39c2518"
             ]
         ]
     },
     {
-        "id": "8b9170e2771f4b40",
+        "id": "75f0c58fe39c2518",
         "type": "trigger",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "",
         "op1": "",
         "op2": "",
@@ -483,16 +515,16 @@
         "y": 900,
         "wires": [
             [
-                "ff09bfb97c5f7a34"
+                "cc2f84d16ffb6345"
             ]
         ],
         "l": false
     },
     {
-        "id": "373c0bfed63f5c82",
+        "id": "dd0e9b274b3597a6",
         "type": "http response",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "Redirecting",
         "statusCode": "302",
         "headers": {
@@ -503,14 +535,14 @@
         "wires": []
     },
     {
-        "id": "5c1ffe5a9a96e09d",
+        "id": "e4f2eb0c2e88e64b",
         "type": "ui-text-input",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "group": "c9733dde78cc1406",
         "name": "date-picker",
         "label": "Select Date:",
-        "order": 2,
+        "order": 3,
         "width": "0",
         "height": "0",
         "topic": "topic",
@@ -532,20 +564,20 @@
         "y": 740,
         "wires": [
             [
-                "dff91035a57735ab"
+                "19407720176e9479"
             ]
         ]
     },
     {
-        "id": "54b1afc2cc6fa040",
+        "id": "965a64939e1c16cf",
         "type": "ui-template",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "group": "c9733dde78cc1406",
         "page": "",
         "ui": "",
         "name": "download-button",
-        "order": 3,
+        "order": 4,
         "width": "2",
         "height": "1",
         "head": "",
@@ -562,15 +594,15 @@
         ]
     },
     {
-        "id": "f8772a73c94b8c46",
+        "id": "31cfad17d7507b14",
         "type": "ui-dropdown",
-        "z": "367c0125f933bfb7",
-        "g": "612ef728a32f9e5e",
+        "z": "157c96309b27bb6f",
+        "g": "cb64fefaeaf4fccf",
         "group": "c9733dde78cc1406",
         "name": "dropdown-address",
         "label": "Select Device",
         "tooltip": "",
-        "order": 1,
+        "order": 2,
         "width": "0",
         "height": "0",
         "passthru": false,
@@ -594,16 +626,16 @@
         "y": 560,
         "wires": [
             [
-                "67a28d025ff38caf",
-                "ee1fc8c0baed35d2"
+                "6f635196e3c2c74e",
+                "2b9e1727e1e499e6"
             ]
         ]
     },
     {
-        "id": "f55aa002438094ac",
+        "id": "34ef0528845d9ed3",
         "type": "function",
-        "z": "367c0125f933bfb7",
-        "g": "612ef728a32f9e5e",
+        "z": "157c96309b27bb6f",
+        "g": "cb64fefaeaf4fccf",
         "name": "populate-options",
         "func": "/**\n * Node-RED function to populate msg.options with an array of stored MAC addresses.\n * Retrieves MAC addresses from a single flow storage key ('macAddresses').\n * \n * @param {Object} msg - Node-RED message object with mac_counter property\n * @returns {Object} msg - Updated message with options array containing MAC addresses\n */\n\n// Retrieve MAC addresses from flow storage\nconst macAddresses = flow.get('macAddresses') || [];\n\n// Ensure mac_counter does not exceed stored array length\nconst count = Math.min(msg.mac_counter, macAddresses.length);\n\n// Populate options array\nmsg.options = macAddresses.slice(0, count);\n\nreturn msg;",
         "outputs": 1,
@@ -616,15 +648,15 @@
         "y": 560,
         "wires": [
             [
-                "f8772a73c94b8c46"
+                "31cfad17d7507b14"
             ]
         ]
     },
     {
-        "id": "53b4fe5732ba269e",
+        "id": "3a48530686a016bc",
         "type": "function",
-        "z": "367c0125f933bfb7",
-        "g": "612ef728a32f9e5e",
+        "z": "157c96309b27bb6f",
+        "g": "cb64fefaeaf4fccf",
         "name": "track-unique-mac",
         "func": "/**\n * Node-RED function to track unique MAC addresses and count occurrences.\n * Stores MAC addresses in a single flow array and maintains a counter.\n * Returns msg with mac_counter and newdevice properties.\n * \n * @param {Object} msg - Node-RED message object with payload.addr (MAC address)\n * @returns {Object} msg - Updated message with mac_counter and newdevice\n */\n\n// Configuration\nconst MAX_MAC_ADDRESSES = 128; // Prevent unbounded growth\n\n// Normalize MAC address (e.g., lowercase for consistent comparison)\nlet newMAC = msg.payload.addr.substring(12)\n\n// Initialize flow storage for MAC addresses and counter\nlet macAddresses = flow.get('macAddresses') || [];\nlet count = flow.get('macCount') || 0;\n\n// Check if MAC address already exists\nconst isExistingMAC = macAddresses.includes(newMAC);\n\nif (isExistingMAC) {\n    // MAC address already exists\n    msg.mac_counter = count;\n    msg.new_device = false;\n} else {\n    // New MAC address\n    if (count >= MAX_MAC_ADDRESSES) {\n        msg.mac_counter = count;\n        msg.newdevice = false;\n    } else {\n        macAddresses.push(newMAC);\n        count++;\n        flow.set('macAddresses', macAddresses);\n        flow.set('macCount', count);\n        msg.mac_counter = count;\n        msg.new_device = true;\n    }\n}\nreturn msg;",
         "outputs": 1,
@@ -637,15 +669,15 @@
         "y": 560,
         "wires": [
             [
-                "f55aa002438094ac"
+                "34ef0528845d9ed3"
             ]
         ]
     },
     {
-        "id": "67a28d025ff38caf",
+        "id": "6f635196e3c2c74e",
         "type": "change",
-        "z": "367c0125f933bfb7",
-        "g": "612ef728a32f9e5e",
+        "z": "157c96309b27bb6f",
+        "g": "cb64fefaeaf4fccf",
         "name": "save-slection",
         "rules": [
             {
@@ -668,31 +700,31 @@
         ]
     },
     {
-        "id": "916fdfee0dacbb72",
+        "id": "7ea1c4f13a1d8b7f",
         "type": "function",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "dd5a7366edd7124a",
         "name": "delete-local-file",
-        "func": "// var date = flow.get('date') || 0;\n// var basePath = flow.get('userpath');\n// var device = msg.device;\n// let path = basePath + \"/\" + device + \"/\" + date;\nlet path = msg.filename;\nmsg.payload = 'rm -r ' + path;\nreturn msg;",
+        "func": "let path = msg.filename;\nlet device = msg.device;\nlet contextKey = `header_written_${device}`;\nmsg.payload = 'rm -r ' + path;\nflow.set(contextKey, false);\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1300,
+        "x": 1760,
         "y": 780,
         "wires": [
             [
-                "920dd385513c57fe"
+                "5c071e7f8c658924"
             ]
         ]
     },
     {
-        "id": "920dd385513c57fe",
+        "id": "5c071e7f8c658924",
         "type": "exec",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "dd5a7366edd7124a",
         "command": "",
         "addpay": "payload",
         "append": "",
@@ -701,26 +733,26 @@
         "winHide": false,
         "oldrc": false,
         "name": "",
-        "x": 1450,
+        "x": 1910,
         "y": 780,
         "wires": [
             [
-                "50e630bb191e3cbe"
+                "a4f3373081b9e7e6"
             ],
             [
-                "50e630bb191e3cbe"
+                "a4f3373081b9e7e6"
             ],
             [
-                "c52c58538a600a0f",
-                "50e630bb191e3cbe"
+                "5ca04232369bb2b3",
+                "a4f3373081b9e7e6"
             ]
         ]
     },
     {
-        "id": "50e630bb191e3cbe",
+        "id": "a4f3373081b9e7e6",
         "type": "debug",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "dd5a7366edd7124a",
         "name": "debug 2",
         "active": false,
         "tosidebar": true,
@@ -729,15 +761,15 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1600,
+        "x": 2060,
         "y": 760,
         "wires": []
     },
     {
-        "id": "dff91035a57735ab",
+        "id": "19407720176e9479",
         "type": "switch",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "verify",
         "property": "payload",
         "propertyType": "msg",
@@ -753,15 +785,15 @@
         "y": 740,
         "wires": [
             [
-                "719f3663bdb487dc"
+                "db53bf0f501f6c41"
             ]
         ]
     },
     {
-        "id": "719f3663bdb487dc",
+        "id": "db53bf0f501f6c41",
         "type": "change",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "set-date-download",
         "rules": [
             {
@@ -781,15 +813,15 @@
         "y": 740,
         "wires": [
             [
-                "ee1fc8c0baed35d2"
+                "2b9e1727e1e499e6"
             ]
         ]
     },
     {
-        "id": "ee1fc8c0baed35d2",
+        "id": "2b9e1727e1e499e6",
         "type": "function",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "get-mac-selection",
         "func": "let mac = flow.get('macSelection') || '';\nlet date = flow.get('date') || '';\nmsg = {};\nmsg.payload = \"/csv/\" + date + \"_\" + mac + \".csv\";\nreturn msg;",
         "outputs": 1,
@@ -802,15 +834,15 @@
         "y": 720,
         "wires": [
             [
-                "54b1afc2cc6fa040"
+                "965a64939e1c16cf"
             ]
         ]
     },
     {
-        "id": "c52c58538a600a0f",
+        "id": "5ca04232369bb2b3",
         "type": "switch",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "dd5a7366edd7124a",
         "name": "check",
         "property": "payload.code",
         "propertyType": "msg",
@@ -824,19 +856,19 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 1590,
+        "x": 2050,
         "y": 800,
         "wires": [
             [
-                "dc27068110a06ab6"
+                "701ad51a75fd5047"
             ]
         ]
     },
     {
-        "id": "dc27068110a06ab6",
+        "id": "701ad51a75fd5047",
         "type": "change",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "dd5a7366edd7124a",
         "name": "message",
         "rules": [
             {
@@ -852,19 +884,19 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1720,
+        "x": 2180,
         "y": 800,
         "wires": [
             [
-                "bdc4cf42432570d8"
+                "f355936bd828aaee"
             ]
         ]
     },
     {
-        "id": "bdc4cf42432570d8",
+        "id": "f355936bd828aaee",
         "type": "trigger",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "dd5a7366edd7124a",
         "name": "",
         "op1": "",
         "op2": "",
@@ -878,19 +910,19 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 1825,
+        "x": 2285,
         "y": 800,
         "wires": [
             [
-                "ff09bfb97c5f7a34"
+                "cc2f84d16ffb6345"
             ]
         ],
         "l": false
     },
     {
-        "id": "144115236c81e34e",
+        "id": "ebb6f04fad4070a7",
         "type": "comment",
-        "z": "367c0125f933bfb7",
+        "z": "157c96309b27bb6f",
         "name": "👇Set your /dev/ttymxc2 port here",
         "info": "",
         "x": 200,
@@ -898,9 +930,9 @@
         "wires": []
     },
     {
-        "id": "f7b49db739d27e79",
+        "id": "585ba22d5eb90a5b",
         "type": "comment",
-        "z": "367c0125f933bfb7",
+        "z": "157c96309b27bb6f",
         "name": "👇Default path: /home/ncdio/.node-red/ncd_log",
         "info": "",
         "x": 860,
@@ -908,14 +940,14 @@
         "wires": []
     },
     {
-        "id": "782a349dfeef3656",
+        "id": "ff2627ecc904e08d",
         "type": "ui-button",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "group": "c9733dde78cc1406",
         "name": "",
         "label": "Delete CSVs for This Device",
-        "order": 4,
+        "order": 5,
         "width": "0",
         "height": "0",
         "emulateClick": false,
@@ -943,15 +975,15 @@
         "y": 980,
         "wires": [
             [
-                "73d57daa16667e08"
+                "93344b6c08db0b58"
             ]
         ]
     },
     {
-        "id": "73d57daa16667e08",
+        "id": "93344b6c08db0b58",
         "type": "function",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "build cmd",
         "func": "let date = flow.get('date') || null;\nlet device = flow.get('macSelection') || null;\nlet path = flow.get('userpath') || null;\nif(date != null && device != null && path != null){\n    msg.command = 'rm -r ' + path + \"/\" + device;\n    msg.payload = 'Are you sure you want to delete all local CSV files from the selected device? This action cannot be undone.';\n    return msg;\n}",
         "outputs": 1,
@@ -964,16 +996,16 @@
         "y": 980,
         "wires": [
             [
-                "b95a29cc092f43a7"
+                "2399210f910b0828"
             ]
         ]
     },
     {
-        "id": "b95a29cc092f43a7",
+        "id": "2399210f910b0828",
         "type": "ui-notification",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
-        "ui": "ec459411017ddf37",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
+        "ui": "eb4502250af82431",
         "position": "top left",
         "colorDefault": true,
         "color": "#000000",
@@ -991,15 +1023,15 @@
         "y": 1000,
         "wires": [
             [
-                "378fdc01118aa93e"
+                "be9586c054ed763b"
             ]
         ]
     },
     {
-        "id": "12591705d9a7449d",
+        "id": "a099da0aa41a351c",
         "type": "exec",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "command": "",
         "addpay": "command",
         "append": "",
@@ -1012,7 +1044,7 @@
         "y": 1000,
         "wires": [
             [
-                "7c18c3c1e4960274"
+                "cd18e0aa72dc9fa3"
             ],
             [],
             []
@@ -1020,14 +1052,14 @@
         "l": false
     },
     {
-        "id": "955cc824bd59dc07",
+        "id": "f8ce2aaf74beccd5",
         "type": "ui-button",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "group": "c9733dde78cc1406",
         "name": "",
         "label": "Delete All Files",
-        "order": 5,
+        "order": 6,
         "width": "0",
         "height": "0",
         "emulateClick": false,
@@ -1055,15 +1087,15 @@
         "y": 1020,
         "wires": [
             [
-                "1df3409f07086094"
+                "73db835a58f26391"
             ]
         ]
     },
     {
-        "id": "1df3409f07086094",
+        "id": "73db835a58f26391",
         "type": "function",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "build cmd",
         "func": "let path = flow.get('userpath') || null;\nif(path != null){\n    msg.command = 'rm -r ' + path;\n    msg.payload = 'Delete all CSV files? This action can not be undone.';\n    return msg;\n}",
         "outputs": 1,
@@ -1076,15 +1108,15 @@
         "y": 1020,
         "wires": [
             [
-                "b95a29cc092f43a7"
+                "2399210f910b0828"
             ]
         ]
     },
     {
-        "id": "378fdc01118aa93e",
+        "id": "be9586c054ed763b",
         "type": "switch",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "confirm",
         "property": "payload",
         "propertyType": "msg",
@@ -1102,15 +1134,15 @@
         "y": 1000,
         "wires": [
             [
-                "12591705d9a7449d"
+                "a099da0aa41a351c"
             ]
         ]
     },
     {
-        "id": "7c18c3c1e4960274",
+        "id": "cd18e0aa72dc9fa3",
         "type": "function",
-        "z": "367c0125f933bfb7",
-        "g": "77a18e0520aad55c",
+        "z": "157c96309b27bb6f",
+        "g": "a95ce519fec67eef",
         "name": "error",
         "func": "if(msg.rc.code){\n    msg.payload = 'No such file or directory';\n    return msg;\n}else{\n    msg.payload = 'File deleted from local';\n    return msg;\n}",
         "outputs": 1,
@@ -1123,15 +1155,15 @@
         "y": 1000,
         "wires": [
             [
-                "8b9170e2771f4b40"
+                "75f0c58fe39c2518"
             ]
         ]
     },
     {
-        "id": "6cecc2ea0bb96daa",
+        "id": "ee9788a4596e1a82",
         "type": "function",
-        "z": "367c0125f933bfb7",
-        "g": "6ce5d36c05508085",
+        "z": "157c96309b27bb6f",
+        "g": "ceb2b9c3d8cb8277",
         "name": "build-path",
         "func": "var userpath = flow.get('userpath');\nvar address = msg.addr;\nvar date = msg.date;\n\n// CSV local Path\nmsg.path = userpath + \"/\" + address + \"/\" + date + \"/\" + date + \"_\" + address + \".csv\";\nreturn msg;",
         "outputs": 1,
@@ -1144,14 +1176,14 @@
         "y": 400,
         "wires": [
             [
-                "71021df82448d14a"
+                "dcdb633910b4489d"
             ]
         ]
     },
     {
-        "id": "2b9a0b4501e9b791",
+        "id": "579d3498fc7539be",
         "type": "inject",
-        "z": "367c0125f933bfb7",
+        "z": "157c96309b27bb6f",
         "name": "inject",
         "props": [
             {
@@ -1169,15 +1201,16 @@
         "y": 280,
         "wires": [
             [
-                "9186ce31f69eeadf"
+                "5b4a12ef706f4359"
             ]
         ]
     },
     {
-        "id": "ec459411017ddf37",
+        "id": "eb4502250af82431",
         "type": "ui-base",
-        "name": "ncd-ui-base",
+        "name": "My Dashboard",
         "path": "/dashboard",
+        "appIcon": "",
         "includeClientData": true,
         "acceptsClientConfig": [
             "ui-notification",
@@ -1188,7 +1221,7 @@
         "navigationStyle": "default",
         "titleBarStyle": "default",
         "showReconnectNotification": true,
-        "notificationDisplayTime": 5,
+        "notificationDisplayTime": 1,
         "showDisconnectNotification": true,
         "allowInstall": true
     },
@@ -1209,10 +1242,10 @@
     {
         "id": "cf58fa4b265306df",
         "type": "ui-page",
-        "name": "NCD Dashboard - Sensor Data CSVs",
-        "ui": "ec459411017ddf37",
+        "name": "Data Logging",
+        "ui": "eb4502250af82431",
         "path": "/download_csv",
-        "icon": "home",
+        "icon": "mdi-database",
         "layout": "grid",
         "theme": "07c199eab558353d",
         "breakpoints": [
@@ -1262,7 +1295,7 @@
         }
     },
     {
-        "id": "45f8c62f45cfb14f",
+        "id": "5740422f4e4a2b67",
         "type": "global-config",
         "env": [],
         "modules": {
